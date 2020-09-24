@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Passport Authentication</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="stylesheets/style.css" rel="stylesheet">
+      <meta name="description" content="A layout example that shows off a responsive email layout.">
+      <link rel="stylesheet" href="/css/pure/pure-min.css">
+      <link rel="stylesheet" href="stylesheets/style.css">
+  </head>
+<body>
+<div id="layout" class="content pure-g">
+    <div id="nav" class="pure-u">
+        <a href="#" class="nav-menu-button">Menu</a>
+        <div class="nav-inner">
+          <a class="navbar-brand" href="/logout">
+            Logout
+          </a>
+            <!-- <button class="primary-button pure-button">Compose</button> -->
+            <div class="pure-menu">
+                <ul class="pure-menu-list">
+                  <li class="pure-menu-item"><a href="members.html" class="pure-menu-link">Home</a></li>
+
+                  <li class="pure-menu-item"><a href="add-role.html" class="pure-menu-link">Add Role</a></li>
+
+                    <!-- <li class="pure-menu-heading">Labels</li>
+                    <li class="pure-menu-item"><a href="#" class="pure-menu-link"><span class="email-label-personal"></span>Personal</a></li>
+                    <li class="pure-menu-item"><a href="#" class="pure-menu-link"><span class="email-label-work"></span>Work</a></li>
+                    <li class="pure-menu-item"><a href="#" class="pure-menu-link"><span class="email-label-travel"></span>Travel</a></li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="list" class="pure-u-2">
+        <div class="email-item email-item-selected pure-g">
+            <div class="pure-u">
+                <img width="64" height="64" alt="Tilo Mitra&#x27;s avatar" class="email-avatar" src="">
+            </div>
+            <div class="pure-u-3-4">
+                <h5 class="email-name">bnmb</h5>
+                <h4 class="email-subject">bvnv</h4>
+                <p class="email-desc">
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="main" class="pure-u-1">
+        <div class="email-content">
+            <div class="email-content-header pure-g">
+                <div class="pure-u-1-2">
+                  <h2>Welcome <span class="member-name"></span></h2>
+                    <!-- <p class="email-content-subtitle">
+                        From <a>Tilo Mitra</a> at <span>3:56pm, April 3, 2012</span>
+                    </p>
+                </div>
+                <div class="email-content-controls pure-u-1-2">
+                    <button class="secondary-button pure-button">Reply</button>
+                    <button class="secondary-button pure-button">Forward</button>
+                    <button class="secondary-button pure-button">Move to</button>
+                </div>
+            </div> -->
+            <div class="body">
+              <form class="pure-form pure-form-stacked">
+                <fieldset>
+                  <legend>Legend</legend>
+                  <div class="pure-g">
+                    <div class="pure-u-1 pure-u-md-1-3">
+                      <label for="multi-first-name">First Name</label>
+                      <input type="text" id="first_name" class="pure-u-23-24" />
+                    </div>
+                    <div class="pure-u-1 pure-u-md-1-3">
+                      <label for="multi-last-name">Last Name</label>
+                      <input type="text" id="last_name" class="pure-u-23-24" />
+                    </div>
+                    <div class="pure-u-1 pure-u-md-1-3">
+                      <label for="multi-email">E-Mail</label>
+                      <input type="email" id="email" class="pure-u-23-24" required="" />
+                    </div>
+                    <div class="pure-u-1 pure-u-md-1-3">
+                      <label for="multi-city">Title</label>
+                      <input type="text" id="title" class="pure-u-23-24" />
+                    </div>
+                    <!-- <div class="pure-u-1 pure-u-md-1-3">
+                              <label for="multi-state">State</label>
+                              <select id="multi-state" class="pure-input-1-2">
+                                  <option>AL</option>
+                                  <option>CA</option>
+                                  <option>IL</option>
+                              </select>
+                          </div>
+                      </div>
+                      <label for="multi-terms" class="pure-checkbox">
+                          <input type="checkbox" id="multi-terms" /> I&#x27;ve read the terms and conditions</label> -->
+                    <button type="submit" class="pure-button pure-button-primary" id="add-btn">Submit</button>
+                </fieldset>
+              </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/add.js"></script>
+</html>
